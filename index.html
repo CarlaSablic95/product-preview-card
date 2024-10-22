@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+
+<body>
+  <main>
+    <section class="product-card">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="./images/image-product-desktop.jpg">
+          <source media="(max-width: 576px)" srcset="./images/image-product-mobile.jpg">
+          <img src="./images/image-product-mobile.jpg" alt="Imagen de perfume" class="product-image">
+        </picture>
+
+      <div class="info-product">
+        <small>Perfume</small>
+
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+
+        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+          CHANEL.</p>
+
+          <div class="price-product">
+            <h2>$149.99</h2>
+            <small>$169.99</small>
+          </div>
+
+        <button>
+          <img src="./images/icon-cart.svg" alt="ícono de carrito de compras"> Add to Cart
+        </button>
+      </div>
+    </section>
+
+    <div class="attribution">
+      <small>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/CarlaSablic95/" target="_blank" class="name-web-developer">Carla Sablic</small>
+    </div>
+  </main>
+
+</body>
+
+</html>
